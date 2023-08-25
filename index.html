@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/base.css">
+    <link rel="stylesheet" href="./asset/css/main.css">
+    <link rel="icon" href="./asset/img/logo/V ..png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./asset/font/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <title>Viet Computer</title>
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+           <div class="header__nav-top">
+            <div class="grid">
+
+                <!--header__nav-->
+
+                <nav class="header__nav">
+                        <ul class="header__nav-list">
+                            <li class="header__nav-list-item header__nav-list-item--cursor header__nav-list-item-infor">
+                                <i class="header__nav-icon fa-solid fa-phone"></i>
+                                Bán hàng trực tuyến
+                                <div class="header__infor">
+                                   <span class="header__infor-heading">Hỗ trợ khách hàng toàn quốc</span>
+                                    <div class="header__infor-container">
+                                        <ul class="header__infor-list">
+                                            <span class="header__infor-list-heading">Linh kiện máy tính - PC lắp ráp</span>
+                                            <li class="header__infor-item">
+                                                <i class="fa-solid fa-message"></i>
+                                                Anh Tuấn : 0938472636
+                                            </li>
+                                            <li class="header__infor-item">
+                                                <i class="fa-solid fa-message"></i>
+                                                Văn Việt : 0938475647
+                                            </li>
+                                            <li class="header__infor-item">
+                                                <i class="fa-solid fa-message"></i>
+                                                Vũ Đức : 0928374612
+                                            </li>
+                                            <li class="header__infor-item">
+                                                <i class="fa-solid fa-message"></i>
+                                                Toàn Tuấn : 0938472637
+                                            </li>
+                                            <li class="header__infor-item">
+                                                <i class="fa-solid fa-message"></i>
+                                                Quốc Nghĩa : 0938472646
+                                            </li>
+                                        </ul>
+                                        <ul class="header__infor-list">
+                                            <span class="header__infor-list-heading">Laptop - Máy in - Camera</span>
+                                            <li class="header__infor-item">
+                                                <i class="fa-solid fa-message"></i>
+                                                Anh Tuấn : 0938472636
+                                            </li>
+                                            <li class="header__infor-item">
+                                                <i class="fa-solid fa-message"></i>
+                                                Mạnh Hoàng : 0938476152
+                                            </li>
+                                            <li class="header__infor-item">
+                                                <i class="fa-solid fa-message"></i>
+                                                Ngọc Phương : 0938475839
+                                            </li>
+                                            <li class="header__infor-item">
+                                                <i class="fa-solid fa-message"></i>
+                                                Đức Hoàng : 02938472646
+                                            </li>
+                                           
+                                        </ul>
+
+                                        <ul class="header__infor-list">
+                                            <span class="header__infor-list-heading">Dearler - Tư vấn Gamenet</span>
+                                            <li class="header__infor-item">
+                                                <i class="fa-solid fa-message"></i>
+                                                Anh Tuấn : 0938472636
+                                            </li>
+                                            <li class="header__infor-item">
+                                                <i class="fa-solid fa-message"></i>
+                                                Quan Tuấn : 0938476378
+                                            </li>
+                                            <li class="header__infor-item">
+                                                <i class="fa-solid fa-message"></i>
+                                                Tưởng Huấn : 0938475893
+                                            </li>
+                                            <li class="header__infor-item">
+                                                <i class="fa-solid fa-message"></i>
+                                                Văn Hiếu : 0938478909
+                                            </li>
+                                           
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header__nav-list-item">
+                                <i class="header__nav-icon fa-solid fa-money-bill"></i>
+                                <a href="" class="header__nav-list-item-link">Hướng dẫn trả góp</a>
+                            </li>
+                            <li class="header__nav-list-item">
+                                <i class="header__nav-icon fa-solid fa-tag"></i>
+                                <a href="" class="header__nav-list-item-link">Khuyến Mãi</a>
+                            </li>
+                        </ul>
+                        <ul class="header__nav-list">
+                            <li class="header__nav-list-login">
+                                <i class="header__nav-icon fa-solid fa-right-to-bracket"></i>
+                                <a href="" class="header__nav-list-login-link">Đăng Nhập</a>
+                            </li>
+                            <li class="header__nav-list-logout">
+                                <a href="" class="header__nav-list-logout-link">Đăng Nhập</a>
+                            </li>
+                        </ul>
+                </nav>
+
+                <!--header__with-search-->
+
+            <div class="header__with-search">
+                <div class="header__logo">
+                    <img src="./asset/img/logo/V ..png" alt="Viet Computuer" class="header__logo-img">
+                </div>
+                <div class="header__selection">
+                    <div class="header__selection-heading">
+                        <buttton class="header__btn-selection" >Tất cả danh mục
+                            <i class="header__btn-selection-icon fa-solid fa-chevron-down"></i>
+                        </buttton>
+                        <ul class="header__selection-list">
+                            <li class="header__selection-list-item">
+                                <a href="" class="header__selection-item-link">Máy tính bộ</a></li>
+                            <li class="header__selection-list-item">
+                                <a href="" class="header__selection-item-link">Máy tính xách tay</a></li>
+                            <li class="header__selection-list-item">
+                                <a href="" class="header__selection-item-link">Linh kiện</a></li>
+                            <li class="header__selection-list-item">
+                                <a href="" class="header__selection-item-link">Tai Nghe</a></li>
+                            <li class="header__selection-list-item">
+                                <a href="" class="header__selection-item-link">Bàn Phím</a></li>
+                            <li class="header__selection-list-item">
+                                <a href="" class="header__selection-item-link">Chuột</a></li>
+                            <li class="header__selection-list-item">
+                                <a href="" class="header__selection-item-link">Dây cáp</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="header__search">
+                        <input type="text" placeholder="Nhập để tìm kiếm" class="header__search-input">
+                    </div>
+                    <button class="header__search-logo">
+                        <i class="header__search-icon fa-solid fa-magnifying-glass"></i>
+                    </button>
+                        
+                   
+                </div>
+
+                
+                <div class="header__look">
+                    <button class="header__look-btn">Sản phẩm đã xem
+                        <i class="header__btn-selection-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                   <div class="header__look-view">
+                    <ul class="header__look-list header__look-list--hover">
+                        <li class="header__look-list-item">
+                            <img src="./asset/img/look/22669_gogeta_03.png" alt="" class="header__look-item-img">
+                            <h3 class="header__look-item-title">PC Viet GOGETA</h3>
+                            <h3 class="header__look-item-price">24.580.000đ</h3>
+                            <span class="header__look-item-sales">30.000.000đ</span>
+                        </li>
+                        <li class="header__look-list-item">
+                            <img src="./asset/img/look/22197_naruto_01_01.png" alt="" class="header__look-item-img">
+                            <h3 class="header__look-item-title">PC Viet Naruto</h3>
+                            <h3 class="header__look-item-price">29.580.000đ</h3>
+                            <span class="header__look-item-sales">30.500.000đ</span>
+                        </li>
+                        <li class="header__look-list-item">
+                            <img src="./asset/img/look/22239_son_goku_04.png" alt="" class="header__look-item-img">
+                            <h3 class="header__look-item-title">PC Viet Goku</h3>
+                            <h3 class="header__look-item-price">22.580.000đ</h3>
+                            <span class="header__look-item-sales">29.000.000đ</span>
+                        </li>
+                        <li class="header__look-list-item">
+                            <img src="./asset/img/look/23775_kamex_03_02.png" alt="" class="header__look-item-img">
+                            <h3 class="header__look-item-title">PC Viet kamex</h3>
+                            <h3 class="header__look-item-price">24.000.000đ</h3>
+                            <span class="header__look-item-sales">28.000.000đ</span>
+                        </li>
+                    </ul>
+                   </div>
+                </div>
+                <div class="header__shop">
+                    <div class="header__shop-item">
+                        <i class="header__shop-icon fa-solid fa-bolt"></i>
+                        <a class="header__shope-item-title">Flash sale</a>
+                    </div>
+                    <div class="header__shop-item">
+                        <i class="header__shop-icon fa-solid fa-computer"></i>
+                        <a class="header__shope-item-title">Xây dựng PC</a>
+                    </div>
+                    <div class="header__shop-item">
+                        <i class="header__shop-icon fa-solid fa-newspaper"></i>
+                        <a class="header__shope-item-title">Tin tức</a>
+                    </div>
+                    <div class="header__shop-item header__shop-cart">
+                        <i class="header__shop-icon fa-solid fa-bag-shopping"></i>
+                        <span class="header__shope-item-title">Giỏ hàng
+                            <div class="header__shop-cart-shop">
+                                <ul class="header__shop-cart-list">
+                                    <li class="header__shop-cart-item">
+                                        <div class="header__shop-cart-header">
+                                            <img src="./asset/img/look/22669_gogeta_03.png" alt="" class="header__shop-cart-img">
+                                            <span class="header__shop-cart-title">PC Viet GOGETA</span>
+                                        </div>
+                                        <div class="header__shop-cart-number">
+                                            <span class="header__shop-cart-quantity">x1</span>
+                                            <span class="header__shop-cart-price">24.580.000đ</span>
+                                        </div>
+                                    </li>
+                                    <li class="header__shop-cart-item">
+                                        <div class="header__shop-cart-header">
+                                            <img src="./asset/img/look/22197_naruto_01_01.png" alt="" class="header__shop-cart-img">
+                                            <span class="header__shop-cart-title">PC Viet Naruto</span>
+                                        </div>
+                                        <div class="header__shop-cart-number">
+                                            <span class="header__shop-cart-quantity">x1</span>
+                                            <span class="header__shop-cart-price">29.580.000đ</span>
+                                        </div>
+                                    </li>
+                                    <li class="header__shop-cart-item">
+                                        <div class="header__shop-cart-header">
+                                            <img src="./asset/img/look/22239_son_goku_04.png" alt="" class="header__shop-cart-img">
+                                            <span class="header__shop-cart-title">PC Viet Goku</span>
+                                        </div>
+                                        <div class="header__shop-cart-number">
+                                            <span class="header__shop-cart-quantity">x1</span>
+                                            <span class="header__shop-cart-price">22.580.000đ</span>
+                                        </div>
+                                    </li>
+                                    <li class="header__shop-cart-item">
+                                        <div class="header__shop-cart-header">
+                                            <img src="./asset/img/look/23775_kamex_03_02.png" alt="" class="header__shop-cart-img">
+                                            <span class="header__shop-cart-title">PC Viet Kamex</span>
+                                        </div>
+                                        <div class="header__shop-cart-number">
+                                            <span class="header__shop-cart-quantity">x1</span>
+                                            <span class="header__shop-cart-price">24.000.000đ</span>
+                                        </div>
+                                    </li>
+                                    <li class="header__shop-cart-sum">
+                                        <h4 class="header__shop-cart-heading">Tổng cộng: 29.000.000đ</h4>
+                                    </li>
+                                </ul>
+                                <div class="header__shop-cart-pay">
+                                    <span class="header__shop-cart-commit">THANH TOÁN NGAY</span>
+                                </div>
+                            </div>
+                        </span>
+                        
+                    </div>
+
+                </div>
+            
+            </div>
+            
+        </div>
+        </div>
+        </div>
+
+        <div class="container">
+            <div class="grid">
+                <div class="container__with-nav">
+                    <nav class="container__nav">
+                       <div class="container__nav-header">
+                        <i class="container__nav-header-icon fa-solid fa-bars"></i>
+                        <span class="conatiner__nav-title">Danh Mục Sản Phẩm
+                        </span>
+                       </div>
+                        <ul class="container__nav-list">
+                            <li class="conatiner__nav-item">
+                                <i class="conatiner__nav-item-icon fa-solid fa-tablet-screen-button"></i>
+                                <a href="" class="container__nav-item-title">Màng hình máy tính</a>
+                            </li>
+                            <li class="conatiner__nav-item">
+                                <i class="conatiner__nav-item-icon fa-solid fa-laptop"></i>
+                                <a href="" class="container__nav-item-title">Máy tính xách tay</a>
+                            </li>
+                            <li class="conatiner__nav-item">
+                                <i class="conatiner__nav-item-icon fa-solid fa-keyboard"></i>
+                                <a href="" class="container__nav-item-title">Bàn phím máy tính</a>
+                            </li>
+                            <li class="conatiner__nav-item">
+                                <i class="conatiner__nav-item-icon fa-solid fa-computer-mouse"></i>
+                                <a href="" class="container__nav-item-title">Chuột máy tính</a>
+                            </li>
+                            <li class="conatiner__nav-item">
+                                <i class="conatiner__nav-item-icon fa-solid fa-wrench"></i>
+                                <a href="" class="container__nav-item-title">Linh kiện máy tính</a>
+                            </li>
+                            <li class="conatiner__nav-item">
+                                <i class="conatiner__nav-item-icon fa-solid fa-table"></i>
+                                <a href="" class="container__nav-item-title">Bàn máy tính</a>
+                            </li>
+                            <li class="conatiner__nav-item">
+                                <i class="conatiner__nav-item-icon fa-solid fa-chair"></i>
+                                <a href="" class="container__nav-item-title">Ghế văn phòng</a>
+                            </li>
+                            <li class="conatiner__nav-item">
+                                <i class="conatiner__nav-item-icon fa-solid fa-wrench"></i>
+                                <a href="" class="container__nav-item-title">Phụ kiện gamming</a>
+                            </li>
+                            <li class="conatiner__nav-item">
+                                <i class="conatiner__nav-item-icon  fa-solid fa-computer"></i>
+                                <a href="" class="container__nav-item-title">Build PC</a>
+                            </li>
+                            <li class="conatiner__nav-item">
+                                <i class="conatiner__nav-item-icon fa-solid fa-network-wired"></i>
+                                <a href="" class="container__nav-item-title">Linh kiện cũ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            <div class="container__with-gift">
+                        <div class="container__gift">
+                            <i class="container__gift-icon fa-solid fa-gift"></i>
+                            <a class="container__gift-title">Top 5 ưu đãi cực khủng của Việt Computer</a>
+                        </div>
+                        <div class="container__slider">
+                            <img src="./asset/img/Slider/0108_1000x5003.jpg" alt="" class="container__slider-img">
+                        </div>
+            </div>
+                <div class="grid__row">
+                <div class="container__infor">
+                    <span class="container__infor-title">Liên hệ Việt Computer</span>
+                    <span class="container__infor-content">Showroom 999 Nguyễn Văn Linh - Đà Nẵng Hotline: 09283765789</span>
+                </div>
+                <div class="container__sales">
+                    <div class="container__sales-heading">
+                        <h3 class="container__sales-heading-title">Sản phẩm khuyến mãi đặc biệt</h3>
+                    </div>
+                </div>
+                </div>
+                <div class="grid__row-nowrap">
+                    <div class="grid__row-5-12">
+                        <div class="container__item-product">
+                                <div class="product__list-item product__list-item--sale">
+                                    <img src="./asset/img/sales/250_20936_swift_01_01.png" alt="" class="product__list-item-img">
+                                    <h4 class="product__list-item-title">Laptop Gaming Acer Aspire 7 A715-42G-R05G (NH.QAYSV.007) Đen (Cpu R5 5500U ,Ram 8gb, Ssd 512Gb, Vga GTX 1650 4GB DDR6, 15.6 inch FHD 144Hz IPS, Win11)</h4>
+                                    <span class="product__list-item-price">15.950.000</span>
+                                    <div class="product__list-item-icon">
+                                        <i class="product__list-icon fa-solid fa-cart-shopping"></i>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="grid__row-5-12">
+                        <div class="container__item-product">
+                                <div class="product__list-item product__list-item--sale">
+                                    <img src="./asset/img/sales/250_22997_aspire_5_01.png" alt="" class="product__list-item-img">
+                                    <h4 class="product__list-item-title">Laptop Acer Aspire 5 A514-55-5954 (NX.K5BSV.001) Xám (Cpu i5-1235U, Ram 8GB, SSD 512GB, Vga Intel Iris Xe, 14.0 inch FHD IPS, Win 11)</h4>
+                                    <span class="product__list-item-price">15.990.000</span>
+                                    <div class="product__list-item-icon">
+                                        <i class="product__list-icon fa-solid fa-cart-shopping"></i>
+                                    </div>
+                                    
+                                </div>
+                        </div>
+                    </div>
+                    <div class="grid__row-5-12">
+                        <div class="container__item-product">
+                                <div class="product__list-item product__list-item--sale">
+                                    <img src="./asset/img/sales/250_21769_aspire_3_01.png " alt="" class="product__list-item-img">
+                                    <h4 class="product__list-item-title">Lapop Acer Aspire 3 A315-58-35AG (NX.ADDSV.00B) Bạc ( Cpu i3-1115G4, Ram 4GB, Ssd 256GB PCle, 15.6 FHD, Win 11)</h4>
+                                    <span class="product__list-item-price">8.990.000</span>
+                                    <div class="product__list-item-icon">
+                                        <i class="product__list-icon fa-solid fa-cart-shopping"></i>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="grid__row-5-12">
+                        <div class="container__item-product">
+                                <div class="product__list-item product__list-item--sale">
+                                    <img src="./asset/img/sales/21627_17_01.png" alt="" class="product__list-item-img">
+                                    <h4 class="product__list-item-title">top Lenovo ThinkBook 15 G2 ITL (20VE00UUVN) Xám (Cpu i3 1115G4, Ram 4GB, Ssd 512GB, 15.6 inch FHD, No OS)</h4>
+                                    <span class="product__list-item-price">11.490.000</span>
+                                    <div class="product__list-item-icon">
+                                        <i class="product__list-icon fa-solid fa-cart-shopping"></i>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="grid__row-5-12">
+                        <div class="container__item-product">
+                                <div class="product__list-item product__list-item--sale">
+                                    <img src="./asset/img/sales/23359_1_01.png" alt="" class="product__list-item-img">
+                                    <h4 class="product__list-item-title">top Asus ExpertBook B1500CEAE-BQ3284 (Cpu i7-1165G7, Ram 8GB, SSD 512GB, Vga Intel Iris Xe, 15.6 inch LED, No os)</h4>
+                                    <span class="product__list-item-price">16.990.000đ</span>
+                                    <div class="product__list-item-icon">
+                                        <i class="product__list-icon fa-solid fa-cart-shopping"></i>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="container__product">
+                    <div class="container__product-heading">
+                        <h2 class="product__heading">Máy Bộ Việt Computer</h2>
+                        <div class="product__heading-more">
+                            <a href="" class="product__heading-more-link">PC CPU INTEL</a>
+                            <a href="" class="product__heading-more-link">PC CPU AMD</a>
+                            <a href="" class="product__heading-more-all">Xem tất cả >></a>
+                        </div>
+                    </div>
+                    <div class="grid__row-nowrap">
+                        <div class="grid__row-5-12">
+                            <div class="container__item-product">
+                                    <div class="product__list-item ">
+                                        <img src="./asset/img/look/22197_naruto_01_01.png" alt="" class="product__list-item-img">
+                                        <h4 class="product__list-item-title">PC VIET NARUTO</h4>
+                                        <span class="product__list-item-price">15.990.000</span>
+                                        <div class="product__list-item-icon">
+                                            <i class="product__list-icon fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="grid__row-5-12">
+                            <div class="container__item-product">
+                                    <div class="product__list-item ">
+                                        <img src="./asset/img/look/22239_son_goku_04.png" alt="" class="product__list-item-img">
+                                        <h4 class="product__list-item-title">PC VIET SON GOKU</h4>
+                                        <span class="product__list-item-price">14.990.000</span>
+                                        <div class="product__list-item-icon">
+                                            <i class="product__list-icon fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="grid__row-5-12">
+                            <div class="container__item-product">
+                                    <div class="product__list-item product__list-item--sale">
+                                        <img src="./asset/img/look/22669_gogeta_03.png" alt="" class="product__list-item-img">
+                                        <h4 class="product__list-item-title">PC VIET GOGETA</h4>
+                                        <span class="product__list-item-price">24.580.000</span>
+                                        <div class="product__list-item-icon">
+                                            <i class="product__list-icon fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="grid__row-5-12">
+                            <div class="container__item-product">
+                                    <div class="product__list-item product__list-item--sale">
+                                        <img src="./asset/img/look/23775_kamex_03_02.png" alt="" class="product__list-item-img">
+                                        <h4 class="product__list-item-title">PC VIET KAMEX</h4>
+                                        <span class="product__list-item-price">12.850.000</span>
+                                        <div class="product__list-item-icon">
+                                            <i class="product__list-icon fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="grid__row-5-12">
+                            <div class="container__item-product">
+                                    <div class="product__list-item">
+                                        <img src="./asset/img/look/23782_goriky_03.png" alt="" class="product__list-item-img">
+                                        <h4 class="product__list-item-title">PC VIET GORIKY</h4>
+                                        <span class="product__list-item-price">29.200.000</span>
+                                        <div class="product__list-item-icon">
+                                            <i class="product__list-icon fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__product">
+                    <div class="container__product-heading">
+                        <h2 class="product__heading">Màng hình máy tính</h2>
+                        <div class="product__heading-more">
+                            <a href="" class="product__heading-more-link">Theo thương hiệu</a>
+                            <a href="" class="product__heading-more-link">Theo độ phân giải</a>
+                            <a href="" class="product__heading-more-all">Xem tất cả >></a>
+                        </div>
+                    </div>
+                    <div class="grid__row-nowrap">
+                        <div class="grid__row-5-12">
+                            <div class="container__item-product">
+                                    <div class="product__list-item">
+                                        <img src="./asset/img/container/scren/24353_lcd_philips_momentum_345m2crz.jpg" alt="" class="product__list-item-img">
+                                        <h4 class="product__list-item-title">LCD Philips Momentum 345M2CRZ 34 inch (3440x1440) WQHD 2K 165Hz Cong (HDMI, DP)</h4>
+                                        <span class="product__list-item-price">9.590.000</span>
+                                        <div class="product__list-item-icon">
+                                            <i class="product__list-icon fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="grid__row-5-12">
+                            <div class="container__item-product">
+                                    <div class="product__list-item">
+                                        <img src="./asset/img/container/scren/24186_lcd_viewsonic_vx2428j.jpg" alt="" class="product__list-item-img">
+                                        <h4 class="product__list-item-title">LCD Viewsonic VX2428J 23.8 inch (1920x1080) FHD 165Hz 0.5ms Chuyên game</h4>
+                                        <span class="product__list-item-price">3.890.000</span>
+                                        <div class="product__list-item-icon">
+                                            <i class="product__list-icon fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="grid__row-5-12">
+                            <div class="container__item-product">
+                                    <div class="product__list-item">
+                                        <img src="./asset/img/container/scren/24454_lcd_lg_24gn65r_b.jpg" alt="" class="product__list-item-img">
+                                        <h4 class="product__list-item-title">LCD LG 24GN65R-B 24 inch (1920x1080) FHD IPS 144Hz chuyên game</h4>
+                                        <span class="product__list-item-price">3.690.000</span>
+                                        <div class="product__list-item-icon">
+                                            <i class="product__list-icon fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="grid__row-5-12">
+                            <div class="container__item-product">
+                                    <div class="product__list-item product__list-item--sale">
+                                        <img src="./asset/img/container/scren/19444_lcd_lg_ultragear_27gp850_27_inch_7.jpg" alt="" class="product__list-item-img">
+                                        <h4 class="product__list-item-title">LCD LG 24GN65R-B 24 inch (1920x1080) FHD IPS 144Hz chuyên game</h4>
+                                        <span class="product__list-item-price">8.950.000đ</span>
+                                        <div class="product__list-item-icon">
+                                            <i class="product__list-icon fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="grid__row-5-12">
+                            <div class="container__item-product">
+                                    <div class="product__list-item product__list-item--sale">
+                                        <img src="./asset/img/container/scren/21148_lcd_asus_vg249q1a_23_8inch.jpg" alt="" class="product__list-item-img">
+                                        <h4 class="product__list-item-title">LCD Asus VG249Q1A-J 23.8inch FHD IPS 165Hz 1ms 250nits HDMI+DP+AudioFreesync</h4>
+                                        <span class="product__list-item-price">3.650.000</span>
+                                        <div class="product__list-item-icon">
+                                            <i class="product__list-icon fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__product">
+                    <div class="container__product-heading">
+                        <h2 class="product__heading">Máy tính laptop</h2>
+                        <div class="product__heading-more">
+                            <a href="" class="product__heading-more-link">DELL</a>
+                            <a href="" class="product__heading-more-link">ACER</a>
+                            <a href="" class="product__heading-more-link">ASUS</a>
+                            <a href="" class="product__heading-more-link">LENOVO</a>
+                            <a href="" class="product__heading-more-link">HP</a>
+                            <a href="" class="product__heading-more-all">Xem tất cả >></a>
+                        </div>
+                    </div>
+                    <div class="grid__row-nowrap">
+                        <div class="grid__row-5-12">
+                            <div class="container__item-product">
+                                    <div class="product__list-item ">
+                                        <img src="./asset/img/container/Laptop/19666_laptop_dell_latitude_3420_l3420i3ssd_black.jpg" alt="" class="product__list-item-img">
+                                        <h4 class="product__list-item-title">Laptop Dell Latitude 3420 L3420I3SSD Black ( Cpu i3-1115G4 (3.00 Ghz, 6 MB), RAM 8GB DDR4, 256GB SSD, Intel UHD Graphics, 14 inch HD, Fedora)</h4>
+                                        <span class="product__list-item-price">14.250.000</span>
+                                        <div class="product__list-item-icon">
+                                            <i class="product__list-icon fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="grid__row-5-12">
+                            <div class="container__item-product">
+                                    <div class="product__list-item product__list-item--sale">
+                                        <img src="./asset/img/container/Laptop/18686_8_011_01.png" alt="" class="product__list-item-img">
+                                        <h4 class="product__list-item-title">Laptop HP 340s G7 -36A36PA Xám (Cpu I7-1065G7, Ram 8Gb, Ssd 256Gb, 14 inch FHD, Win 10)</h4>
+                                        <span class="product__list-item-price">15.490.000</span>
+                                        <div class="product__list-item-icon">
+                                            <i class="product__list-icon fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="grid__row-5-12">
+                            <div class="container__item-product">
+                                    <div class="product__list-item ">
+                                        <img src="./asset/img/container/Laptop/24453_aspire_5_01.png" alt="" class="product__list-item-img">
+                                        <h4 class="product__list-item-title">Laptop Acer Aspire 5 A514-56P-35X7 (NX.KHRSV.001) Gray (Cpu i3-1315U, Ram 8GB, SSD 512GB, Vga UHD Graphics, 14 inch WUXGA, Win 11)</h4>
+                                        <span class="product__list-item-price">11.990.000đ</span>
+                                        <div class="product__list-item-icon">
+                                            <i class="product__list-icon fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="grid__row-5-12">
+                            <div class="container__item-product">
+                                    <div class="product__list-item product__list-item--sale">
+                                        <img src="./asset/img/container/Laptop/20893_aspire_7a_01.png" alt="" class="product__list-item-img">
+                                        <h4 class="product__list-item-title">Laptop Gaming Acer Aspire 7 A715-42G-R05G (NH.QAYSV.007) Đen (Cpu R5 5500U ,Ram 8gb, Ssd 512Gb, Vga GTX 1650 4GB DDR6, 15.6 inch FHD 144Hz IPS, Win11)</h4>
+                                        <span class="product__list-item-price">14.990.000đ</span>
+                                        <div class="product__list-item-icon">
+                                            <i class="product__list-icon fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="grid__row-5-12">
+                            <div class="container__item-product">
+                                    <div class="product__list-item">
+                                        <img src="./asset/img/container/Laptop/17766_5_01.png" alt="" class="product__list-item-img">
+                                        <h4 class="product__list-item-title">Laptop Acer SWIFT 5 SF514-55T-51NZ (NX.HX9SV.002) Vàng (Core i5-1135G7, Ram 8GB, SSd 512gb, 14 inch, FHD, Win 10, Touch)</h4>
+                                        <span class="product__list-item-price">21.190.000đ</span>
+                                        <div class="product__list-item-icon">
+                                            <i class="product__list-icon fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__product">
+                    <div class="container__product-heading">
+                        <h2 class="product__heading">Chuột & Tai Nghe</h2>
+                        <div class="product__heading-more">
+                            <a href="" class="product__heading-more-link">Chuột</a>
+                            <a href="" class="product__heading-more-link">Tai Nghe</a>
+                            <a href="" class="product__heading-more-all">Xem tất cả >></a>
+                        </div>
+                    </div>
+                    <div class="grid__row-nowrap">
+                        <div class="grid__row-5-12">
+                            <div class="container__item-product">
+                                    <div class="product__list-item">
+                                        <img src="./asset/img/container/Mouse_phone/19968_tai_nghe_khong_day_logitech_g733_lightspeed_rgb_mau_den.jpg" alt="" class="product__list-item-img">
+                                        <h4 class="product__list-item-title">Tai nghe không dây Logitech G733 Lightspeed RGB Màu đen</h4>
+                                        <span class="product__list-item-price">2.800.000</span>
+                                        <div class="product__list-item-icon">
+                                            <i class="product__list-icon fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="grid__row-5-12">
+                            <div class="container__item-product">
+                                    <div class="product__list-item ">
+                                        <img src="./asset/img/container/Mouse_phone/16435_chuot_day_logitech_g102_2th_lightsync_gaming_mau_den.jpg" alt="" class="product__list-item-img">
+                                        <h4 class="product__list-item-title">Chuột dây Logitech G102 2th Lightsync Gaming (màu đen)</h4>
+                                        <span class="product__list-item-price">395.000</span>
+                                        <div class="product__list-item-icon">
+                                            <i class="product__list-icon fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="grid__row-5-12">
+                            <div class="container__item-product">
+                                    <div class="product__list-item">
+                                        <img src="./asset/img/container/Mouse_phone/14216_tai_nghe_corsair_void_rgb_elite_usb_ca_9011203_na.jpg" alt="" class="product__list-item-img">
+                                        <h4 class="product__list-item-title">Tai nghe Corsair Void RGB Elite USB CA-9011203-NA</h4>
+                                        <span class="product__list-item-price">1.930.000</span>
+                                        <div class="product__list-item-icon">
+                                            <i class="product__list-icon fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="grid__row-5-12">
+                            <div class="container__item-product">
+                                    <div class="product__list-item product__list-item--sale">
+                                        <img src="./asset/img/container/Mouse_phone/23442_chuot_day_logitech_g502_x_gaming_mau_den_10.jpg" alt="" class="product__list-item-img">
+                                        <h4 class="product__list-item-title">Chuột dây Logitech G502 X Gaming màu đen</h4>
+                                        <span class="product__list-item-price">1.590.000</span>
+                                        <div class="product__list-item-icon">
+                                            <i class="product__list-icon fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="grid__row-5-12">
+                            <div class="container__item-product">
+                                    <div class="product__list-item product__list-item--sale">
+                                        <img src="./asset/img/container/Mouse_phone/24270_tai_nghe_steelseries_arctis_prime_61487.jpg" alt="" class="product__list-item-img">
+                                        <h4 class="product__list-item-title">Tai nghe Steelseries Arctis Prime - 61487</h4>
+                                        <span class="product__list-item-price">2.750.000đ</span>
+                                        <div class="product__list-item-icon">
+                                            <i class="product__list-icon fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container__news">
+                    <div class="grid__row container__news-header">
+                            <div class="container__news-heading">
+                                <i class="container__news-heading-icon fa-solid fa-newspaper"></i>
+                                <span class="container__news-heading-title">Tin tức & mẹo vặt</span>
+                            </div>
+                            <div class="container___news-more">
+                                <span class="container__news-more-title">
+                                    Xem tất cả
+                                </span>
+                            </div>
+                            </div>
+                    <div class="grid__row-nowrap container__news-content">
+                        <div class="grid__row-3 container__news-list">
+                            <div class="container__news-item">
+                                <img src="./asset/img/news/2587_top_5_mainboard.jpg" alt="" class="container__news-item-img">
+                                <spam class="container__news-item-title">Top 5 mainboard chất lượng tốt, giá hợp lý đáng mua nhất năm 2023</spam>
+                                <span class="container__news-item-day">19-08-2022, 4:06pm</span>
+                            </div>
+                        </div>
+                        <div class="grid__row-3 container__news-list">
+                            <div class="container__news-item">
+                                <img src="./asset/img/news/4441_7_cach_sua_loi_ram_not_detected.jpg" alt="" class="container__news-item-img">
+                                <spam class="container__news-item-title">7 cách sữa lỗi ram không thích ứng với máy tính</spam>
+                                <span class="container__news-item-day">19-08-2022, 5:30pm</span>
+                            </div>
+                        </div>
+                        <div class="grid__row-3 container__news-list">
+                            <div class="container__news-item">
+                                <img src="./asset/img/news/4442_apple_pay_cach_su_dung_apple_pay.jpg" alt="" class="container__news-item-img">
+                                <spam class="container__news-item-title">Cách sữ dụng apple pay một cách hữu ích tiết kiệm</spam>
+                                <span class="container__news-item-day">20-08-2022, 7:06pm</span>
+                            </div>
+                        </div>
+                        <div class="grid__row-3 container__news-list">
+                            <div class="container__news-item">
+                                <img src="./asset/img/news/4444_baldur_gate_the_gioi.jpg" alt="" class="container__news-item-img">
+                                <spam class="container__news-item-title">Baldur gate game the giới vừa ra mắt trong tháng này</spam>
+                                <span class="container__news-item-day">19-08-2022, 4:06pm</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                </div>
+                <div class="container__end">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="grid">
+                <div class="footer__infor">
+                    <div class="grid__row-nowrap">
+                        <div class="grid__row-3 footer__infor-item">
+                            <img src="./asset/img/logo/V ..png" alt="" class="footer__infor-img">
+                            <h4 class="footer__infor-heading">Công Ty TNHH Tin Học Viet Computer</h4>
+                            <ul class="footer__infor-content">
+                                <li class="footer__infor-content-item">
+                                    <i class="footer__infor-icon fa-solid fa-location-dot"></i>
+                                    <span class="footer__infor-content-text">999 Nguyễn Văn Linh - Thành Phố Đà Nẵng</span>
+                                    
+                                </li>
+                                <li class="footer__infor-content-item">
+                                    <i class="footer__infor-icon fa-solid fa-phone"></i>
+                                    <span class="footer__infor-content-text">Số điện thoại: 0837462736</span>
+
+                                    
+                                </li>
+                                <li class="footer__infor-content-item">
+                                    <i class="footer__infor-icon fa-solid fa-envelope"></i>
+                                    <span class="footer__infor-content-text">Mail: Vietcompuer@gmail.com</span>
+
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="grid__row-3 footer__infor-item">
+                            <div class="footer__infor-title">
+                                <h4 class="footer__infor-title-heading">
+                                    Thông Tin Chung
+                                </h4>
+                                <ul class="footer__infor-title-list">
+                                    <li class="footer__infor-title-list-item">
+                                        <a href="" class="footer__infor-title-item-link">Giới thiệu về Việt Computer</a>
+                                    </li>
+                                    <li class="footer__infor-title-list-item">
+                                        <a href="" class="footer__infor-title-item-link">Tin tuyển dụng</a>
+                                    </li>
+                                    <li class="footer__infor-title-list-item">
+                                        <a href="" class="footer__infor-title-item-link">Tin tức</a>
+                                    </li>
+                                    <li class="footer__infor-title-list-item">
+                                        <a href="" class="footer__infor-title-item-link">Tin khuyến mãi</a>
+                                    </li>
+                                    <li class="footer__infor-title-list-item">
+                                        <a href="" class="footer__infor-title-item-link">Liên hệ góp ý</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="grid__row-3 footer__infor-item">
+                            <div class="footer__infor-title">
+                                <h4 class="footer__infor-title-heading">
+                                    Hỗ trợ khách hàng
+                                </h4>
+                                <ul class="footer__infor-title-list">
+                                    <li class="footer__infor-title-list-item">
+                                        <a href="" class="footer__infor-title-item-link">Tìm hiểu về mua trả góp</a>
+                                    </li>
+                                    <li class="footer__infor-title-list-item">
+                                        <a href="" class="footer__infor-title-item-link">Chính sách về hoàn tiền</a>
+                                    </li>
+                                    <li class="footer__infor-title-list-item">
+                                        <a href="" class="footer__infor-title-item-link">Chính sách khi mua hàng</a>
+                                    </li>
+                                    <li class="footer__infor-title-list-item">
+                                        <a href="" class="footer__infor-title-item-link">Chính sách đổi trả</a>
+                                    </li>
+                                    <li class="footer__infor-title-list-item">
+                                        <a href="" class="footer__infor-title-item-link">Bảo mật thông tin khách hàng</a>
+                                    </li>
+                                    <li class="footer__infor-title-list-item">
+                                        <a href="" class="footer__infor-title-item-link">Chính sách đổi trả</a>
+                                    </li>
+                                    <li class="footer__infor-title-list-item">
+                                        <a href="" class="footer__infor-title-item-link">Chính sách bảo hành</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="grid__row-3 footer__infor-item">
+                            <div class="footer__infor-dowload">
+                                <div class="footer__infor-qr">
+                                    <img src="./asset/img/dowload/qr.png" alt="" class="footer__infor-qr-img">
+                                </div>
+                                <div class="footer__infor-dowload-list">
+                                    <img src="./asset/img/dowload/google.png" alt="" class="footer__infor-android">
+                                    <img src="./asset/img/dowload/apstore.png" alt="" class="footer__infor-ios">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__end">
+                <p class="footer__end-title">
+                    © 2019. CÔNG TY TNHH TIN HỌC Việt Computer. Giấy phép kinh doanh: 0400480223 - do sở KH & ĐT TP. Đà Nẵng cấp ngày: 25/01/2005.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
