@@ -548,8 +548,10 @@
 .container__with-gift{
     position: absolute;
     top: 182px;
-    margin-left: 300px;
-    right: auto;
+    width: 1000px;
+    margin-left: 100%;
+    right: 59px;
+   
 }
 
 .container__gift{
@@ -574,14 +576,15 @@
 
 
 .container__slider{
-    width: 900px;
-    height: 450px;
+    
+    
+    
 }
 
 .container__slider-img{
-    max-width: 100%;
-    max-height: auto;
-    
+    width:  1000px;
+    max-height: 450px;
+  
     
 }
 
