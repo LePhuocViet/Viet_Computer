@@ -307,7 +307,6 @@
 
 .header__shop-item{
     padding-left: 10px;
-    z-index: 4;
     padding-right: 10px;
 }
 
@@ -477,7 +476,7 @@
 .container__with-nav{
     width: 350px;
     position: relative;
-    z-index: 1;
+    
 }
 
 .container__nav{
@@ -842,4 +841,100 @@ background-color: #11ca20;
     font-size: 1.6rem;
     color: #fff;
     
+}
+/* login */
+.header__nav-list--login{
+    display: block;
+}
+
+.header__nav-list--login .header__nav-list-login{
+    display: none;
+}
+
+.header__nav-list--login .header__nav-list-logout{
+    display: none;
+}
+.header__nav-list-account {
+    display: none;
+}
+.header__nav-list--login .header__nav-list-account{
+    display: initial;
+}
+.header__nav-list-accout-icon{
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    
+}
+
+.header__nav-list-accout-link{
+    color: #fff;
+    font-size: 1.6rem;
+    text-decoration: none;
+    margin: 5px;
+    position: relative;
+    z-index: 5;
+}
+.header__nav-list-accout-link::after{
+    content: "";
+ 
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+.header__nav-list-account:hover .header__account-list{
+    display:block;
+}
+.header__account-list{
+    padding-left: 0;
+    position: absolute;
+    list-style-type: none;
+    z-index: 5;
+    margin-top: 10px;
+    margin-left: 22px;
+    background-color: #222;
+    box-shadow: 0px 2px 3px #333;
+    display: none;
+}
+
+.header__account-list-item{
+    margin: 10px 0;
+    padding: 5px 10px;
+    
+}
+
+.header__account-item-link{
+    font-size: 1.4rem;
+    color: #fff;
+    text-decoration: none;
+}
+.header__account-item-link:hover{
+    border-bottom: 2px solid #fff;
+    color: var(--primary-color);
+}
+
+/* header__look--no-item */
+.header__look--no-item .header__look-list-item{
+    display:none ;
+}
+/* cart-no-item*/
+
+.header__shop-cart--no-item .header__shop-cart-item{
+    display: none;
+}
+
+.header__shop-cart--no-item .header__shop-cart-heading{
+    display: none;
+}
+
+.header__shop-cart--no-item .header__shop-cart--no-heading{
+    text-align: center;
+}
+/*modal*/
+.modal__body-list{
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+    box-shadow: 1px 2px 3px #333;
 }

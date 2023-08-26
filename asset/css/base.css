@@ -123,15 +123,19 @@ html{
     cursor: pointer;
 }
 .product__list-item-icon{
-   position: relative;
-    left: 200px;
+   display: flex;
+   justify-content:end;
+    margin-left: 10px;
+    margin-right: 10px;
     padding-bottom: 10px;
+    
 }
 
 .product__list-icon{
     font-size: 1.6rem;
     color: #fff;
     cursor: pointer;
+    padding-left: 20px;
 }
 
 .container__product-heading{
@@ -168,4 +172,25 @@ html{
     text-transform: none;
     text-decoration: none;
     color: var(--primary-color);
+}
+/* modal */
+.modal{
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   display: flex;
+}
+.modal__main{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    background-color:  rgba(255, 255, 255, 0.4);
+    z-index: 4;
+}
+.modal__body{
+    position: relative;
+    z-index: 5;
+    margin: auto;
 }
