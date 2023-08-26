@@ -13,7 +13,9 @@ html{
 .grid__row-nowrap{
     display: flex;
     flex-wrap: nowrap;
+    
     overflow: hidden;
+   
 }
 .grid{
     width: 1300px;
@@ -28,8 +30,7 @@ html{
 .grid__row{
     display: flex;
     flex-wrap: wrap;
-    margin-left: -12px;
-    margin-right: -12px;
+    
 }
 .grid__row-2{
     padding-left: 12px;
@@ -88,15 +89,13 @@ html{
 }
 .product__list-item-img{
     
-    width: 200px;
+    width: 100%;
     height: 200px;
-    margin: 20px;
     transition: linear 0.2s;
 }
-.product__list-item-img:hover{
-    width: 100%;
-    margin:0 0 20px 0;
-    height: 100%;
+.container__item-product:hover{
+    border: 1px solid var(--primary-color);
+   
 }
 .product__list-item-title{
     font-size: 1.4rem;
@@ -108,6 +107,7 @@ html{
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     color: #fff;
+    margin-top: 20px;
 }
 
 .product__list-item-title:hover{
